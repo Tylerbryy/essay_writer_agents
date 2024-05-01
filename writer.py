@@ -18,8 +18,8 @@ search_tool = DuckDuckGoSearchRun()
 wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
 
 
-os.environ["SERP_API_KEY"] = "ff1899813e61be8cf317c34efe346542ec50f5ad59d56b80c0d57e1f0cc47306"
-gpt4_preview= ChatOpenAI(temperature=0, openai_api_key="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", model="gpt-4-turbo-2024-04-09")
+os.environ["SERP_API_KEY"] = "api key"
+gpt4_preview= ChatOpenAI(temperature=0, openai_api_key="sk-apikey", model="gpt-4-turbo-2024-04-09")
 
 
 google_scholar_tool = GoogleScholarQueryRun(api_wrapper=GoogleScholarAPIWrapper())
